@@ -38,6 +38,7 @@ Before getting started, ensure you have the following installed:
    - **Case 1: Synthesizing Verilog Code in VS Code**
    
      - Place the [Makefile](https://github.com/Ijnaka22len/Vivado-VS-Code-Integration-for-FPGAs/blob/main/Makefile) & [Preferences](https://github.com/Ijnaka22len/Vivado-VS-Code-Integration-for-FPGAs/blob/main/Preferences) in the project directory.
+     - In the [Preferences](https://github.com/Ijnaka22len/Vivado-VS-Code-Integration-for-FPGAs/blob/main/Preferences) file, change the VIVADO_PATH=C:/Xilinx/Vivado/2018.3/bin to reflect the installation path of your vivado.
      - Create your Verilog `.v` file and testbench `_tb.v` in the same directory.
      - Add commands to the testbench file for waveform dumping.
      - Open VS Code terminal and run synthesis: `make onlySynthesis`
