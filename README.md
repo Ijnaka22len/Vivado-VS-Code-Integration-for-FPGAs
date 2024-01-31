@@ -1,6 +1,7 @@
 # Vivado-VS-Code-Integration-for-FPGAs
 
 Leverage the VS Code terminal and custom Makefile for automating Vivado operations, encompassing synthesis, implementation, and bitstream generation, aiming to optimize the development workflow.
+![VivGIT]('./VivGIT.png')
 
 ## Overview
 
