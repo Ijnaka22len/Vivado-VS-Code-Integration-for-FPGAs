@@ -48,7 +48,6 @@ Before getting started, ensure you have the following installed:
    - **Case 2: Automating Vivado Tasks**
    
      - Download Makefile & Preferences files provided in this repository.
-     - Clone your project's repository and copy the downloaded files.
      - Run `make getHelp` to view available commands.
      - Ensure Makefile & Preferences files are copied to respective project folders.
      - Utilize VS Code as a text editor for Vivado with error checker extensions.
