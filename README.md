@@ -41,6 +41,8 @@ Before getting started, ensure you have the following installed:
      - In the [Preferences](https://github.com/Ijnaka22len/Vivado-VS-Code-Integration-for-FPGAs/blob/main/Preferences) file, change the `VIVADO_PATH=C:/Xilinx/Vivado/2018.3/bin` to reflect the installation path of your vivado.
      - Create your Verilog `.v` file and testbench `_tb.v` in the same directory.
      - Add commands to the testbench file for waveform dumping.
+       - `$dumpfile("left_shifter.vcd");` // Generate VCD file for waveform viewing
+       - `$dumpvars(0, left_shifter_tb);`
      - Open VS Code terminal and run synthesis: `make onlySynthesis`
      - Use `make clean` to clear previous runs if necessary.
      - Set `USE_GTKWAVE=YES` in the Preferences file for automatic waveform visualization.
