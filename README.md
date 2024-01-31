@@ -59,12 +59,3 @@ Before getting started, ensure you have the following installed:
 ## Contribution
 
 Feel free to contribute by opening issues or submitting pull requests.
-
-## License
-
-This project is licensed under the [License Name](link_to_license).
-
-## Acknowledgements
-
-- None
----
