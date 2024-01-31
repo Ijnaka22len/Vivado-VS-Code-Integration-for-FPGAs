@@ -1,6 +1,6 @@
 # Vivado-VS-Code-Integration-for-FPGAs
 
-Leverage the VS Code terminal and Makefile for automating Vivado operations, encompassing synthesis, implementation, and bitstream generation, aiming to optimize the development workflow.
+Leverage the VS Code terminal and custom Makefile for automating Vivado operations, encompassing synthesis, implementation, and bitstream generation, aiming to optimize the development workflow.
 
 ## Overview
 
@@ -45,7 +45,7 @@ Before getting started, ensure you have the following installed:
        - `$dumpvars(0, {fileName}_tb);`
      - Open VS Code terminal and run synthesis: `make onlySynthesis`
      - Use `make clean` to clear previous runs if necessary.
-     - Set `USE_GTKWAVE=YES` in the Preferences file for automatic waveform visualization.
+     - Set `USE_GTKWAVE=YES` in the **Preferences** file for automatic waveform visualization.
 
    - **Case 2: Automating Vivado Tasks**
    
